@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * Description: C program that prints a function followed by a new line using put command
- * Return: if successful, return 0
+ * Return: 0 if successful
  */
 
 int main(void)
