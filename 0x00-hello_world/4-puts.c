@@ -1,18 +1,13 @@
-#include <stdio.h>
-
-int main(void)
+#include  <stdio.h>
 
 /**
  * main - Entry point
- *
- * Description: prints with a new line using put instead of printf.
- *
- * Return: Always 0 (Succesful)
-*/
+ * Description: C program that prints a function followed by a new line using put command
+ * Return: if successful, return 0
+ */
 
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
-
