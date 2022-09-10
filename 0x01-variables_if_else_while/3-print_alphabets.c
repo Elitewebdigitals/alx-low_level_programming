@@ -1,22 +1,26 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - returns alphabet in both loweer and upper case
+ * Return: returns 0 (successful)
  */
+
 int main(void)
 {
-char lower_case;
-char upper_case;
+	int ch = 'a';
+	int CH = 'A';
 
-for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
-{
-putchar(lower_case);
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
+	}
+	while (CH <= 'Z')
+	{
+		putchar(CH);
+		CH++;
+	}
+	putchar('\n');
+	return (0);
 }
-for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
-{
-putchar(upper_case);
-}
-
-putchar('\n');
-return (0);
