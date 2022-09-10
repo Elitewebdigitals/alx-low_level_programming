@@ -1,19 +1,20 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- *
+ * main - print from 0 to 9 using putchar
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-int i;
-for (i = 48; i <= 57; i++)
-{
-putchar(i);
+	int num = '0';
+
+	while (num <= '9')
+	{
+		putchar(num);
+		num++;
+	}
+	putchar('\n');
+
+	return (0);
 }
-putchar('\n');
-return (0);
-}
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
