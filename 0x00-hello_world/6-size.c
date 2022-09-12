@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: print the size of various types computer C runs on 
+ * Description: using sizeof to print the size of various types.
  *
  * Return: Always 0 (Succesful)
 */
@@ -19,4 +19,4 @@ int main(void)
 	printf("Size of a float: %d byte(s)\n", sizeof(float));
 	return (0);
 
-} 
+}
